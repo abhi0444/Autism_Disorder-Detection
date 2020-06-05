@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Autism Detector</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/main.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Autism Detector</a>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br><br>
+        <div class="container my-3">
+            <h1>Autism Detector using Custom Vision Azure Service</h1>
+            <h5>Upload image of a child</h5>
+
+            <form id="form">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="input_image">
+                    <label class="custom-file-label" for="input_image">Choose file</label>
+                </div>
+                <button type="submit" class="btn btn-primary my-2">Predict</button>
+            </form>
+
+            <!-- Result -->
+            <div id="result" class="my-3"></div>
+        </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="css/app.js"></script>
+</body>
+
+</html>
