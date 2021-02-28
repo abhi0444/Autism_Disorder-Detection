@@ -1,4 +1,4 @@
-# Autism Detection 
+# Autism Detection Using 3D CNN
 
 ## This is a  static website is hosted on aws.
 
